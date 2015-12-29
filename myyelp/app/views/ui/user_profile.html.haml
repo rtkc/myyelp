@@ -1,0 +1,19 @@
+%article.profile
+  .container
+    .row
+      .profile_info.col-sm-10
+        %header
+          %h3 Ruby Tang's reviews
+
+%section.reviews.container
+  .row
+    .col-sm-10.col-sm-offset-1
+      %ul
+        - 8.times do 
+          %article.review
+            %li.row
+              .col-sm-2
+                %span Rating 2/5
+                %p by <a href="">John Smith</a>
+              .col-sm-8
+                %p Best pizza in town!!

@@ -1,0 +1,17 @@
+%section#top-header.row
+  %h1.col-md-2
+    = link_to "MyYelp"
+  %ul.col-md-4.clearfix
+    %li= link_to("All businesses", home_path)
+    %li= link_to "All reviews"
+    %li= link_to "+ Add a new business"
+  #user_links.pull-right
+    %ul
+      %li.dropdown
+        %a(href="#" id="dlabel" role="button" data-toggle="dropdown" class="dropdown-toggle" data-target="#")
+          Welcome, Philip J. Fry
+          %b.caret
+        %ul.dropdown-menu(role="menu" aria-labelledby="dlabel")
+          %li
+            %a(href="#") Your Profile
+            %a(href="#") Sign Out

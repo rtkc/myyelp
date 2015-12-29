@@ -1,0 +1,47 @@
+%article.profile
+  .container
+    .row 
+      .profile_large_cover.col-sm-7.col-sm-offset-1
+        %img(src="http://dummyimage.com/665x375/000000/00a2ff")
+      .video_info.col-sm-3
+        %header
+          %h3 Motorino 
+          %span Rating: 3/5
+        %p Working hard, using the best of everything and staying true to every pizza that comes out of the oven is what we've built on since we opened in Brooklyn.
+        .actions
+          %a.btn.btn-primary(href="") See more
+
+%section.reviews.container
+  .row
+    .col-sm-10.col-sm-offset-1
+      .form
+        %fieldset
+          .form-group
+            %label Rate this business
+            .row
+              .col-sm-3
+                %select.form-control(name="")
+                  %option(value="5") 5 Stars
+                  %option(value="4") 4 Stars
+                  %option(value="3") 3 Stars
+                  %option(value="2") 2 Stars
+                  %option(value="1") 1 Stars
+          .form-group
+            %label Write Review 
+            .row
+              .col-sm-8
+                %textarea.form-control(name="" rows="6")
+        %fieldset.form-group.actions.clearfix
+          %input(type="submit" value="submit" class="btn")
+          %a(href="") Cancel
+      %header 
+        %h3 User Reviews (253)
+      %ul 
+        - 8.times do 
+          %article.review
+            %li.row
+              .col-sm-2
+                %span Rating: 5/5
+                %p by <a href="">John Smith</a>
+              .col-sm-8
+                %p Best pizza in town!!
