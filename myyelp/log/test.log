@@ -1,0 +1,626 @@
+  [1m[36mActiveRecord::SchemaMigration Load (2.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (5.7ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.5ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (13.9ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["created_at", "2015-12-29 05:40:40.817108"], ["name", "Food"], ["updated_at", "2015-12-29 05:40:40.817108"]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_id", 4], ["created_at", "2015-12-22 05:40:40.837465"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 05:40:40.847321"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category_id", 4], ["created_at", "2015-12-22 05:40:40.849125"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 05:40:40.849782"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_id", 4], ["created_at", "2015-12-22 05:40:40.850884"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 05:40:40.851543"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["created_at", "2015-12-29 05:40:40.853069"], ["name", "Drinks"], ["updated_at", "2015-12-29 05:40:40.853069"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_id", 4], ["created_at", "2015-12-22 05:40:40.854163"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 05:40:40.854827"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category_id", 4], ["created_at", "2015-12-22 05:40:40.855941"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 05:40:40.856538"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_id", 4], ["created_at", "2015-12-22 05:40:40.857614"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 05:40:40.858208"]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["created_at", "2015-12-29 05:42:00.116001"], ["name", "Food"], ["updated_at", "2015-12-29 05:42:00.116001"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_id", 6], ["created_at", "2015-12-22 05:42:00.120838"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 05:42:00.129509"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category_id", 6], ["created_at", "2015-12-22 05:42:00.131267"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 05:42:00.132232"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_id", 6], ["created_at", "2015-12-22 05:42:00.133329"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 05:42:00.133999"]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["created_at", "2015-12-29 05:42:00.136289"], ["name", "Drinks"], ["updated_at", "2015-12-29 05:42:00.136289"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_id", 6], ["created_at", "2015-12-22 05:42:00.137474"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 05:42:00.138140"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category_id", 6], ["created_at", "2015-12-22 05:42:00.139212"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 05:42:00.139796"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_id", 6], ["created_at", "2015-12-22 05:42:00.140855"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 05:42:00.141578"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "businesses"  WHERE "businesses"."category_id" = $1[0m  [["category_id", 6]]
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["created_at", "2015-12-29 05:44:19.614400"], ["name", "Food"], ["updated_at", "2015-12-29 05:44:19.614400"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_id", 8], ["created_at", "2015-12-22 05:44:19.619601"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 05:44:19.633375"]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category_id", 8], ["created_at", "2015-12-22 05:44:19.635105"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 05:44:19.635805"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_id", 8], ["created_at", "2015-12-22 05:44:19.636911"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 05:44:19.637549"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["created_at", "2015-12-29 05:44:19.639055"], ["name", "Drinks"], ["updated_at", "2015-12-29 05:44:19.639055"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_id", 8], ["created_at", "2015-12-22 05:44:19.640085"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 05:44:19.640783"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category_id", 8], ["created_at", "2015-12-22 05:44:19.642083"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 05:44:19.642973"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_id", 8], ["created_at", "2015-12-22 05:44:19.644153"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 05:44:19.644830"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mBusiness Load (6.5ms)[0m  [1mSELECT  "businesses".* FROM "businesses"  WHERE "businesses"."category_id" = $1  ORDER BY "businesses"."id" ASC LIMIT 3[0m  [["category_id", 8]]
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["created_at", "2015-12-29 05:58:13.626555"], ["name", "Food"], ["updated_at", "2015-12-29 05:58:13.626555"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_id", 10], ["created_at", "2015-12-22 05:58:13.631460"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 05:58:13.644775"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category_id", 10], ["created_at", "2015-12-24 05:58:13.646452"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 05:58:13.647155"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "categories" ("created_at", "name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["created_at", "2015-12-29 05:58:13.650392"], ["name", "Food"], ["updated_at", "2015-12-29 05:58:13.650392"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category_id", 11], ["created_at", "2015-12-22 05:58:13.651683"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 05:58:13.652421"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_id", 11], ["created_at", "2015-12-22 05:58:13.653535"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 05:58:13.654190"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category_id", 11], ["created_at", "2015-12-22 05:58:13.655165"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 05:58:13.655743"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "categories" ("created_at", "name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["created_at", "2015-12-29 05:58:13.657293"], ["name", "Drinks"], ["updated_at", "2015-12-29 05:58:13.657293"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category_id", 11], ["created_at", "2015-12-22 05:58:13.658338"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 05:58:13.659000"]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_id", 11], ["created_at", "2015-12-22 05:58:13.660232"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 05:58:13.661076"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category_id", 11], ["created_at", "2015-12-22 05:58:13.662356"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 05:58:13.663078"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mBusiness Load (0.4ms)[0m  SELECT  "businesses".* FROM "businesses"  WHERE "businesses"."category_id" = $1  ORDER BY "businesses"."id" ASC LIMIT 3  [["category_id", 11]]
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["created_at", "2015-12-29 05:58:56.187667"], ["name", "Food"], ["updated_at", "2015-12-29 05:58:56.187667"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_id", 13], ["created_at", "2015-12-22 05:58:56.192293"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 05:58:56.203739"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category_id", 13], ["created_at", "2015-12-22 05:58:56.205459"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 05:58:56.206158"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_id", 13], ["created_at", "2015-12-22 05:58:56.207205"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 05:58:56.208085"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["created_at", "2015-12-29 05:58:56.209797"], ["name", "Drinks"], ["updated_at", "2015-12-29 05:58:56.209797"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_id", 13], ["created_at", "2015-12-22 05:58:56.210927"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 05:58:56.211610"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category_id", 13], ["created_at", "2015-12-22 05:58:56.212701"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 05:58:56.213323"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_id", 13], ["created_at", "2015-12-22 05:58:56.214382"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 05:58:56.215082"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mBusiness Load (0.6ms)[0m  [1mSELECT  "businesses".* FROM "businesses"  WHERE "businesses"."category_id" = $1  ORDER BY "businesses"."id" ASC LIMIT 3[0m  [["category_id", 13]]
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "categories" ("created_at", "name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["created_at", "2015-12-29 05:58:56.236496"], ["name", "Food"], ["updated_at", "2015-12-29 05:58:56.236496"]]
+  [1m[35m (0.3ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category_id", 15], ["created_at", "2015-12-22 05:58:56.239259"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 05:58:56.240694"]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_id", 15], ["created_at", "2015-12-24 05:58:56.242773"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 05:58:56.243980"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category_id", 15], ["created_at", "2015-12-26 05:58:56.245920"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 05:58:56.247050"]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mBusiness Load (0.4ms)[0m  SELECT  "businesses".* FROM "businesses"  WHERE "businesses"."category_id" = $1  ORDER BY "businesses"."id" ASC LIMIT 3  [["category_id", 15]]
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["created_at", "2015-12-29 05:59:29.492980"], ["name", "Food"], ["updated_at", "2015-12-29 05:59:29.492980"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_id", 16], ["created_at", "2015-12-22 05:59:29.497635"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 05:59:29.503532"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category_id", 16], ["created_at", "2015-12-22 05:59:29.505824"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 05:59:29.506724"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_id", 16], ["created_at", "2015-12-22 05:59:29.508021"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 05:59:29.508687"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["created_at", "2015-12-29 05:59:29.510168"], ["name", "Drinks"], ["updated_at", "2015-12-29 05:59:29.510168"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_id", 16], ["created_at", "2015-12-22 05:59:29.511206"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 05:59:29.511910"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category_id", 16], ["created_at", "2015-12-22 05:59:29.512968"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 05:59:29.513614"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_id", 16], ["created_at", "2015-12-22 05:59:29.514646"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 05:59:29.515210"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mBusiness Load (0.4ms)[0m  [1mSELECT  "businesses".* FROM "businesses"  WHERE "businesses"."category_id" = $1  ORDER BY "businesses"."id" ASC LIMIT 3[0m  [["category_id", 16]]
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "categories" ("created_at", "name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["created_at", "2015-12-29 05:59:29.531902"], ["name", "Food"], ["updated_at", "2015-12-29 05:59:29.531902"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category_id", 18], ["created_at", "2015-12-22 05:59:29.533113"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 05:59:29.533892"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_id", 18], ["created_at", "2015-12-24 05:59:29.534936"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 05:59:29.535541"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category_id", 18], ["created_at", "2015-12-26 05:59:29.536549"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 05:59:29.537138"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mBusiness Load (0.2ms)[0m  SELECT  "businesses".* FROM "businesses"  WHERE "businesses"."category_id" = $1  ORDER BY "businesses"."id" ASC LIMIT 3  [["category_id", 18]]
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["created_at", "2015-12-29 06:22:26.404527"], ["name", "Food"], ["updated_at", "2015-12-29 06:22:26.404527"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_id", 19], ["created_at", "2015-12-22 06:22:26.410820"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 06:22:26.424662"]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category_id", 19], ["created_at", "2015-12-24 06:22:26.427000"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 06:22:26.428292"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_id", 19], ["created_at", "2015-12-26 06:22:26.429913"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 06:22:26.430930"]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mBusiness Load (12.8ms)[0m  [1mSELECT  "businesses".* FROM "businesses"  WHERE "businesses"."category_id" = $1  ORDER BY created_at DESC LIMIT 3[0m  [["category_id", 19]]
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "categories" ("created_at", "name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["created_at", "2015-12-29 06:22:26.462063"], ["name", "Food"], ["updated_at", "2015-12-29 06:22:26.462063"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category_id", 20], ["created_at", "2015-12-22 06:22:26.463408"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 06:22:26.464136"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_id", 20], ["created_at", "2015-12-22 06:22:26.465145"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 06:22:26.465738"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category_id", 20], ["created_at", "2015-12-22 06:22:26.466773"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 06:22:26.467356"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "categories" ("created_at", "name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["created_at", "2015-12-29 06:22:26.468845"], ["name", "Drinks"], ["updated_at", "2015-12-29 06:22:26.468845"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category_id", 20], ["created_at", "2015-12-22 06:22:26.469992"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 06:22:26.470662"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_id", 20], ["created_at", "2015-12-22 06:22:26.471662"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 06:22:26.472298"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category_id", 20], ["created_at", "2015-12-22 06:22:26.473240"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 06:22:26.473866"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mBusiness Load (0.2ms)[0m  SELECT  "businesses".* FROM "businesses"  WHERE "businesses"."category_id" = $1  ORDER BY created_at DESC LIMIT 3  [["category_id", 20]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (6.9ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["created_at", "2015-12-29 06:35:35.964791"], ["name", "Food"], ["updated_at", "2015-12-29 06:35:35.964791"]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_id", 22], ["created_at", "2015-12-22 06:35:35.980286"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 06:35:35.990257"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category_id", 22], ["created_at", "2015-12-24 06:35:35.992079"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 06:35:35.992989"]]
+  [1m[36m (0.3ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_id", 22], ["created_at", "2015-12-26 06:35:35.994561"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 06:35:35.995667"]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category_id", 22], ["created_at", "2015-12-27 06:35:35.997107"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 06:35:35.998036"]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_id", 22], ["created_at", "2015-12-28 06:35:36.000654"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 06:35:36.001599"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mBusiness Load (1.1ms)[0m  [1mSELECT  "businesses".* FROM "businesses"  WHERE "businesses"."category_id" = $1  ORDER BY created_at DESC LIMIT 3[0m  [["category_id", 22]]
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "categories" ("created_at", "name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["created_at", "2015-12-29 06:35:36.024246"], ["name", "Food"], ["updated_at", "2015-12-29 06:35:36.024246"]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category_id", 23], ["created_at", "2015-12-22 06:35:36.026530"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 06:35:36.027422"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_id", 23], ["created_at", "2015-12-24 06:35:36.028586"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 06:35:36.029269"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category_id", 23], ["created_at", "2015-12-26 06:35:36.030428"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 06:35:36.031196"]]
+  [1m[36m (0.3ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mBusiness Load (0.6ms)[0m  SELECT  "businesses".* FROM "businesses"  WHERE "businesses"."category_id" = $1  ORDER BY created_at DESC LIMIT 3  [["category_id", 23]]
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["created_at", "2015-12-29 06:35:36.038473"], ["name", "Food"], ["updated_at", "2015-12-29 06:35:36.038473"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_id", 24], ["created_at", "2015-12-22 06:35:36.039753"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 06:35:36.041103"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category_id", 24], ["created_at", "2015-12-22 06:35:36.042758"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 06:35:36.043493"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_id", 24], ["created_at", "2015-12-22 06:35:36.044589"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 06:35:36.045209"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["created_at", "2015-12-29 06:35:36.046620"], ["name", "Drinks"], ["updated_at", "2015-12-29 06:35:36.046620"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_id", 24], ["created_at", "2015-12-22 06:35:36.047731"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 06:35:36.049160"]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category_id", 24], ["created_at", "2015-12-22 06:35:36.051579"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 06:35:36.052691"]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_id", 24], ["created_at", "2015-12-22 06:35:36.054174"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 06:35:36.055169"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mBusiness Load (0.5ms)[0m  [1mSELECT  "businesses".* FROM "businesses"  WHERE "businesses"."category_id" = $1  ORDER BY created_at DESC LIMIT 3[0m  [["category_id", 24]]
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["created_at", "2015-12-29 06:36:19.213201"], ["name", "Food"], ["updated_at", "2015-12-29 06:36:19.213201"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_id", 26], ["created_at", "2015-12-22 06:36:19.219387"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 06:36:19.232820"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category_id", 26], ["created_at", "2015-12-24 06:36:19.234627"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 06:36:19.235678"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_id", 26], ["created_at", "2015-12-26 06:36:19.236838"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 06:36:19.237601"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category_id", 26], ["created_at", "2015-12-27 06:36:19.238710"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 06:36:19.239336"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_id", 26], ["created_at", "2015-12-28 06:36:19.240331"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 06:36:19.241002"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mBusiness Load (0.6ms)[0m  [1mSELECT  "businesses".* FROM "businesses"  WHERE "businesses"."category_id" = $1  ORDER BY created_at DESC LIMIT 3[0m  [["category_id", 26]]
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "categories" ("created_at", "name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["created_at", "2015-12-29 06:36:19.261019"], ["name", "Food"], ["updated_at", "2015-12-29 06:36:19.261019"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category_id", 27], ["created_at", "2015-12-22 06:36:19.262682"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 06:36:19.265822"]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_id", 27], ["created_at", "2015-12-24 06:36:19.268544"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 06:36:19.271346"]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.7ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category_id", 27], ["created_at", "2015-12-26 06:36:19.274123"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 06:36:19.276146"]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mBusiness Load (0.4ms)[0m  SELECT  "businesses".* FROM "businesses"  WHERE "businesses"."category_id" = $1  ORDER BY created_at DESC LIMIT 3  [["category_id", 27]]
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["created_at", "2015-12-29 06:36:19.282560"], ["name", "Food"], ["updated_at", "2015-12-29 06:36:19.282560"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_id", 28], ["created_at", "2015-12-22 06:36:19.283884"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 06:36:19.284714"]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category_id", 28], ["created_at", "2015-12-22 06:36:19.285883"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 06:36:19.286593"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_id", 28], ["created_at", "2015-12-22 06:36:19.287836"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 06:36:19.288726"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["created_at", "2015-12-29 06:36:19.290615"], ["name", "Drinks"], ["updated_at", "2015-12-29 06:36:19.290615"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_id", 28], ["created_at", "2015-12-22 06:36:19.293128"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 06:36:19.294540"]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category_id", 28], ["created_at", "2015-12-22 06:36:19.296516"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 06:36:19.297465"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_id", 28], ["created_at", "2015-12-22 06:36:19.298860"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 06:36:19.299562"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mBusiness Load (0.4ms)[0m  [1mSELECT  "businesses".* FROM "businesses"  WHERE "businesses"."category_id" = $1  ORDER BY created_at DESC LIMIT 3[0m  [["category_id", 28]]
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["created_at", "2015-12-29 06:37:22.712117"], ["name", "Food"], ["updated_at", "2015-12-29 06:37:22.712117"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_id", 30], ["created_at", "2015-12-22 06:37:22.716715"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 06:37:22.729598"]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category_id", 30], ["created_at", "2015-12-24 06:37:22.731771"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 06:37:22.733031"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_id", 30], ["created_at", "2015-12-26 06:37:22.734618"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 06:37:22.735456"]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category_id", 30], ["created_at", "2015-12-27 06:37:22.736949"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 06:37:22.737924"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_id", 30], ["created_at", "2015-12-28 06:37:22.739219"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 06:37:22.739975"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mBusiness Load (0.5ms)[0m  [1mSELECT  "businesses".* FROM "businesses"  WHERE "businesses"."category_id" = $1  ORDER BY created_at DESC LIMIT 3[0m  [["category_id", 30]]
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "categories" ("created_at", "name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["created_at", "2015-12-29 06:37:22.755967"], ["name", "Food"], ["updated_at", "2015-12-29 06:37:22.755967"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category_id", 31], ["created_at", "2015-12-22 06:37:22.757305"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 06:37:22.758619"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_id", 31], ["created_at", "2015-12-24 06:37:22.760041"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 06:37:22.760727"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category_id", 31], ["created_at", "2015-12-26 06:37:22.761760"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 06:37:22.762403"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mBusiness Load (0.3ms)[0m  SELECT  "businesses".* FROM "businesses"  WHERE "businesses"."category_id" = $1  ORDER BY created_at DESC LIMIT 3  [["category_id", 31]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["created_at", "2015-12-29 06:37:22.766387"], ["name", "Food"], ["updated_at", "2015-12-29 06:37:22.766387"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mBusiness Load (0.2ms)[0m  SELECT  "businesses".* FROM "businesses"  WHERE "businesses"."category_id" = $1  ORDER BY created_at DESC LIMIT 3  [["category_id", 32]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["created_at", "2015-12-29 06:37:22.770254"], ["name", "Food"], ["updated_at", "2015-12-29 06:37:22.770254"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_id", 33], ["created_at", "2015-12-22 06:37:22.771456"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 06:37:22.772252"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category_id", 33], ["created_at", "2015-12-24 06:37:22.773371"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 06:37:22.774024"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mBusiness Load (0.2ms)[0m  SELECT  "businesses".* FROM "businesses"  WHERE "businesses"."category_id" = $1  ORDER BY created_at DESC LIMIT 3  [["category_id", 33]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["created_at", "2015-12-29 06:37:22.778709"], ["name", "Food"], ["updated_at", "2015-12-29 06:37:22.778709"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_id", 34], ["created_at", "2015-12-22 06:37:22.779894"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 06:37:22.780630"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category_id", 34], ["created_at", "2015-12-22 06:37:22.781656"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 06:37:22.782260"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_id", 34], ["created_at", "2015-12-22 06:37:22.783259"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 06:37:22.783867"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["created_at", "2015-12-29 06:37:22.785326"], ["name", "Drinks"], ["updated_at", "2015-12-29 06:37:22.785326"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_id", 34], ["created_at", "2015-12-22 06:37:22.786349"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 06:37:22.787042"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["category_id", 34], ["created_at", "2015-12-22 06:37:22.788035"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 06:37:22.788660"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "businesses" ("category_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_id", 34], ["created_at", "2015-12-22 06:37:22.789673"], ["description", "Rustic pizza"], ["name", "Motorino"], ["updated_at", "2015-12-29 06:37:22.790353"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mBusiness Load (0.3ms)[0m  [1mSELECT  "businesses".* FROM "businesses"  WHERE "businesses"."category_id" = $1  ORDER BY created_at DESC LIMIT 3[0m  [["category_id", 34]]
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
