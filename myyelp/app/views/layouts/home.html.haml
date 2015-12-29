@@ -1,0 +1,8 @@
+%article.business_category
+  %header
+    %h3= link_to "Food"
+  .videos.row
+    - 3.times do
+      .video.col-sm-4
+        = link_to "", nil do
+          %img(src="/tmp/#{['BlueHill', 'MO', 'Jumbo'].sample}.jpg")
