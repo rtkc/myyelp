@@ -1,0 +1,11 @@
+%article.business_category
+  %header
+    %h3= @category.name
+    .businesses.row
+      - @category.businesses.each do |business|
+        .business.col-sm-4
+          = link_to business do
+            %h4= business.name
+          %p= business.description
+          = link_to business do
+            = image_tag business.small_cover_url
