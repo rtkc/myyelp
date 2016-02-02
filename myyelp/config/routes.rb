@@ -1,11 +1,22 @@
 Myyelp::Application.routes.draw do
 
+  root to: 'pages#front'
   get 'ui(/:action)', controller: 'ui'
   get 'home', to: 'businesses#index'
-
-  resources :businesses, only: [:index, :show]
+  get 'new_business', to: 'businesses#new'
+  get 'sign_up', to: 'users#new'
+  get 'sign_in', to: 'sessions#new'
+  post 'sign_in', to: 'sessions#create'
+  get 'sign_out', to: 'sessions#destroy'
+  resources :businesses, only: [:index, :show, :create] do
+    resources :reviews, only: [:create]
+  end
 
   resources :categories, only: [:show]
+
+  resources :users, only: [:create, :show]
+
+  resources :reviews, only: [:index]
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
