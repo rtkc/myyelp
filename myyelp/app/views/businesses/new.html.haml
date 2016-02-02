@@ -1,0 +1,15 @@
+%section.register.container
+  .row
+    .col-sm-10.col-sm-offset-1
+      = bootstrap_form_for(@business, layout: :horizontal, label_col: "col-sm-2", control_col: "col-sm-6") do |f|
+        %header
+          %h1 Add a new business
+        %fieldset
+          = f.text_field :name, label: "Business Name"
+          = f.text_area :description, label: "Description"
+          = f.select :category_id, [["Food", 1], ["Drinks", 2], ["Shopping", 3], ["Active Life", 4], ["Arts & Entertainmnet", 5]], { label: "Category" }, { class: "selectpicker" }
+          = f.text_field :address, label: "Address"
+          = f.form_group :country, label: {text: "Country"} do
+            = f.country_select :country, {priority: %w(US CA), prompt: 'Please select a country'}, class: 'form-control'
+          = f.text_field :website, label: "Website"
+        = f.submit "Create new entry"

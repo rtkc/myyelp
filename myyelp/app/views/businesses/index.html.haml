@@ -3,7 +3,7 @@
     - @categories.each do |category|
       %h3= link_to(category.name, category)
       .businesses.row
-        - category.businesses.each do |business|
+        - category.recent_businesses.each do |business|
           .business.col-sm-4
             = link_to business do
               %h4= business.name

@@ -1,0 +1,17 @@
+%section.reviews.container
+  .row
+    .col-sm-10.col-sm-offset-1
+      %header
+        %h2 Latest Reviews 
+        %hr
+      .col-sm-6
+        - @reviews.each do |review| 
+          %h3= link_to "#{review.business.name}", review.business
+          %p
+          %label Reviewed by:
+          %p= link_to "#{review.creator.full_name}", review.creator
+          %label Rating
+          %p= "#{review.rating}/5 stars"
+          %label Review 
+          %p= "#{review.review}"
+          %hr
