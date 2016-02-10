@@ -23,7 +23,7 @@ class BusinessesController < ApplicationController
   def show
     @business = Business.find(params[:id])
     @review = Review.new
-    @reviews = @business.reviews.reload
+    @reviews = @business.reviews
   end
 
   private

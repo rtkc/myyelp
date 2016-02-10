@@ -14,6 +14,7 @@ before_action :require_sign_in
       flash[:success] = "Your review was created successfully."
       redirect_to business_path(@business)
     else
+      @reviews = @business.reviews.reload
       render 'businesses/show'
     end
   end
