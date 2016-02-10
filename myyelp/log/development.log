@@ -38555,3 +38555,2213 @@ Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-02-02 15:01:17 +
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-02-02 15:01:17 +0800
+
+
+Started GET "/sign_out" for 127.0.0.1 at 2016-02-02 16:53:38 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (6.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 12ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-02 16:53:39 +0800
+Processing by PagesController#front as HTML
+  Rendered pages/front.html.haml within layouts/application (6.4ms)
+  Rendered shared/_header.html.haml (4.9ms)
+  Rendered shared/_messages.html.haml (2.5ms)
+Completed 200 OK in 181ms (Views: 180.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/general.css?body=1" for 127.0.0.1 at 2016-02-02 16:53:39 +0800
+
+
+Started GET "/assets/header.css?body=1" for 127.0.0.1 at 2016-02-02 16:53:39 +0800
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2016-02-02 16:53:39 +0800
+
+
+Started GET "/assets/profile.css?body=1" for 127.0.0.1 at 2016-02-02 16:53:39 +0800
+
+
+Started GET "/assets/public_pages.css?body=1" for 127.0.0.1 at 2016-02-02 16:53:39 +0800
+
+
+Started GET "/assets/review.css?body=1" for 127.0.0.1 at 2016-02-02 16:53:39 +0800
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2016-02-02 16:53:39 +0800
+
+
+Started GET "/assets/whitespace-reset.css?body=1" for 127.0.0.1 at 2016-02-02 16:53:39 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-02-02 16:53:39 +0800
+
+
+Started GET "/assets/rails_bootstrap_forms.css?body=1" for 127.0.0.1 at 2016-02-02 16:53:39 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-02-02 16:53:39 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-02-02 16:53:39 +0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-02-02 16:53:39 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-02-02 16:53:39 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-02 16:53:44 +0800
+Processing by PagesController#front as HTML
+  Rendered pages/front.html.haml within layouts/application (0.4ms)
+  Rendered shared/_header.html.haml (0.2ms)
+  Rendered shared/_messages.html.haml (0.1ms)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/general.css?body=1" for 127.0.0.1 at 2016-02-02 16:53:44 +0800
+
+
+Started GET "/assets/header.css?body=1" for 127.0.0.1 at 2016-02-02 16:53:44 +0800
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2016-02-02 16:53:44 +0800
+
+
+Started GET "/assets/profile.css?body=1" for 127.0.0.1 at 2016-02-02 16:53:44 +0800
+
+
+Started GET "/assets/public_pages.css?body=1" for 127.0.0.1 at 2016-02-02 16:53:44 +0800
+
+
+Started GET "/assets/review.css?body=1" for 127.0.0.1 at 2016-02-02 16:53:44 +0800
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2016-02-02 16:53:44 +0800
+
+
+Started GET "/assets/whitespace-reset.css?body=1" for 127.0.0.1 at 2016-02-02 16:53:44 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-02-02 16:53:44 +0800
+
+
+Started GET "/assets/rails_bootstrap_forms.css?body=1" for 127.0.0.1 at 2016-02-02 16:53:44 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-02-02 16:53:44 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-02-02 16:53:44 +0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-02-02 16:53:44 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-02-02 16:53:44 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-07 15:14:29 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (28.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#front as HTML
+  Rendered pages/front.html.haml within layouts/application (4.2ms)
+  Rendered shared/_header.html.haml (3.5ms)
+  Rendered shared/_messages.html.haml (1.9ms)
+Completed 200 OK in 155ms (Views: 140.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/general.css?body=1" for 127.0.0.1 at 2016-02-07 15:14:30 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-02-07 15:14:30 +0800
+
+
+Started GET "/assets/header.css?body=1" for 127.0.0.1 at 2016-02-07 15:14:30 +0800
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2016-02-07 15:14:30 +0800
+
+
+Started GET "/assets/profile.css?body=1" for 127.0.0.1 at 2016-02-07 15:14:30 +0800
+
+
+Started GET "/assets/public_pages.css?body=1" for 127.0.0.1 at 2016-02-07 15:14:30 +0800
+
+
+Started GET "/assets/rails_bootstrap_forms.css?body=1" for 127.0.0.1 at 2016-02-07 15:14:30 +0800
+
+
+Started GET "/assets/review.css?body=1" for 127.0.0.1 at 2016-02-07 15:14:30 +0800
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2016-02-07 15:14:30 +0800
+
+
+Started GET "/assets/whitespace-reset.css?body=1" for 127.0.0.1 at 2016-02-07 15:14:30 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-02-07 15:14:30 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-02-07 15:14:30 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-02-07 15:14:30 +0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-02-07 15:14:30 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-02-07 15:14:30 +0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-02-07 15:14:30 +0800
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2016-02-07 15:14:32 +0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.haml within layouts/application (1281.6ms)
+  Rendered shared/_header.html.haml (0.7ms)
+  Rendered shared/_messages.html.haml (0.2ms)
+Completed 200 OK in 1296ms (Views: 1295.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/general.css?body=1" for 127.0.0.1 at 2016-02-07 15:14:33 +0800
+
+
+Started GET "/assets/header.css?body=1" for 127.0.0.1 at 2016-02-07 15:14:33 +0800
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2016-02-07 15:14:33 +0800
+
+
+Started GET "/assets/profile.css?body=1" for 127.0.0.1 at 2016-02-07 15:14:33 +0800
+
+
+Started GET "/assets/public_pages.css?body=1" for 127.0.0.1 at 2016-02-07 15:14:33 +0800
+
+
+Started GET "/assets/review.css?body=1" for 127.0.0.1 at 2016-02-07 15:14:33 +0800
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2016-02-07 15:14:33 +0800
+
+
+Started GET "/assets/whitespace-reset.css?body=1" for 127.0.0.1 at 2016-02-07 15:14:33 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-02-07 15:14:34 +0800
+
+
+Started GET "/assets/rails_bootstrap_forms.css?body=1" for 127.0.0.1 at 2016-02-07 15:14:34 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-02-07 15:14:34 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-02-07 15:14:34 +0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-02-07 15:14:34 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-02-07 15:14:34 +0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-02-07 15:14:34 +0800
+
+
+Started POST "/sign_in" for 127.0.0.1 at 2016-02-07 15:14:43 +0800
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"91EizVqkpaXHFnh9ntHkCrEbzCjSYuhts1F1wNbHCP4=", "email"=>"ruby@email.com", "password"=>"[FILTERED]", "commit"=>"Sign in"}
+  [1m[35mUser Load (12.9ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = 'ruby@email.com' LIMIT 1
+Redirected to http://localhost:3000/home
+Completed 302 Found in 159ms (ActiveRecord: 25.5ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-02-07 15:14:44 +0800
+Processing by BusinessesController#index as HTML
+  [1m[36mUser Load (2.7ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCategory Load (13.3ms)[0m  SELECT "categories".* FROM "categories"
+  [1m[36mBusiness Load (12.6ms)[0m  [1mSELECT  "businesses".* FROM "businesses"  WHERE "businesses"."category_id" = $1  ORDER BY created_at DESC LIMIT 3[0m  [["category_id", 1]]
+  [1m[35mBusiness Load (0.4ms)[0m  SELECT  "businesses".* FROM "businesses"  WHERE "businesses"."category_id" = $1  ORDER BY created_at DESC LIMIT 3  [["category_id", 2]]
+  [1m[36mBusiness Load (0.3ms)[0m  [1mSELECT  "businesses".* FROM "businesses"  WHERE "businesses"."category_id" = $1  ORDER BY created_at DESC LIMIT 3[0m  [["category_id", 3]]
+  [1m[35mBusiness Load (0.3ms)[0m  SELECT  "businesses".* FROM "businesses"  WHERE "businesses"."category_id" = $1  ORDER BY created_at DESC LIMIT 3  [["category_id", 4]]
+  [1m[36mBusiness Load (0.4ms)[0m  [1mSELECT  "businesses".* FROM "businesses"  WHERE "businesses"."category_id" = $1  ORDER BY created_at DESC LIMIT 3[0m  [["category_id", 5]]
+  Rendered businesses/index.html.haml within layouts/application (82.5ms)
+  Rendered shared/_header.html.haml (0.6ms)
+  Rendered shared/_messages.html.haml (0.1ms)
+Completed 200 OK in 105ms (Views: 62.8ms | ActiveRecord: 35.7ms)
+
+
+Started GET "/assets/general.css?body=1" for 127.0.0.1 at 2016-02-07 15:14:44 +0800
+
+
+Started GET "/assets/header.css?body=1" for 127.0.0.1 at 2016-02-07 15:14:44 +0800
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2016-02-07 15:14:44 +0800
+
+
+Started GET "/assets/profile.css?body=1" for 127.0.0.1 at 2016-02-07 15:14:44 +0800
+
+
+Started GET "/assets/public_pages.css?body=1" for 127.0.0.1 at 2016-02-07 15:14:44 +0800
+
+
+Started GET "/assets/review.css?body=1" for 127.0.0.1 at 2016-02-07 15:14:44 +0800
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2016-02-07 15:14:44 +0800
+
+
+Started GET "/assets/whitespace-reset.css?body=1" for 127.0.0.1 at 2016-02-07 15:14:44 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-02-07 15:14:44 +0800
+
+
+Started GET "/assets/rails_bootstrap_forms.css?body=1" for 127.0.0.1 at 2016-02-07 15:14:44 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-02-07 15:14:44 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-02-07 15:14:44 +0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-02-07 15:14:44 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-02-07 15:14:44 +0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-02-07 15:14:44 +0800
+
+
+Started GET "/reviews" for 127.0.0.1 at 2016-02-07 15:14:48 +0800
+Processing by ReviewsController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mReview Load (12.8ms)[0m  [1mSELECT "reviews".* FROM "reviews"   ORDER BY created_at DESC[0m
+  [1m[35mBusiness Load (2.2ms)[0m  SELECT  "businesses".* FROM "businesses"  WHERE "businesses"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mBusiness Load (0.3ms)[0m  SELECT  "businesses".* FROM "businesses"  WHERE "businesses"."id" = $1 LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mBusiness Load (0.3ms)[0m  SELECT  "businesses".* FROM "businesses"  WHERE "businesses"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mBusiness Load (0.3ms)[0m  SELECT  "businesses".* FROM "businesses"  WHERE "businesses"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered reviews/index.html.haml within layouts/application (38.2ms)
+  Rendered shared/_header.html.haml (0.5ms)
+  Rendered shared/_messages.html.haml (0.2ms)
+Completed 200 OK in 56ms (Views: 32.7ms | ActiveRecord: 18.2ms)
+
+
+Started GET "/assets/general.css?body=1" for 127.0.0.1 at 2016-02-07 15:14:49 +0800
+
+
+Started GET "/assets/header.css?body=1" for 127.0.0.1 at 2016-02-07 15:14:49 +0800
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2016-02-07 15:14:49 +0800
+
+
+Started GET "/assets/profile.css?body=1" for 127.0.0.1 at 2016-02-07 15:14:49 +0800
+
+
+Started GET "/assets/public_pages.css?body=1" for 127.0.0.1 at 2016-02-07 15:14:49 +0800
+
+
+Started GET "/assets/review.css?body=1" for 127.0.0.1 at 2016-02-07 15:14:49 +0800
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2016-02-07 15:14:49 +0800
+
+
+Started GET "/assets/whitespace-reset.css?body=1" for 127.0.0.1 at 2016-02-07 15:14:49 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-02-07 15:14:49 +0800
+
+
+Started GET "/assets/rails_bootstrap_forms.css?body=1" for 127.0.0.1 at 2016-02-07 15:14:49 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-02-07 15:14:49 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-02-07 15:14:49 +0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-02-07 15:14:49 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-02-07 15:14:49 +0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-02-07 15:14:49 +0800
+
+
+Started GET "/reviews" for 127.0.0.1 at 2016-02-07 15:15:06 +0800
+Processing by ReviewsController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mReview Load (0.3ms)[0m  [1mSELECT "reviews".* FROM "reviews"   ORDER BY created_at DESC[0m
+  [1m[35mBusiness Load (0.2ms)[0m  SELECT  "businesses".* FROM "businesses"  WHERE "businesses"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mBusiness Load (0.3ms)[0m  SELECT  "businesses".* FROM "businesses"  WHERE "businesses"."id" = $1 LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mBusiness Load (0.3ms)[0m  SELECT  "businesses".* FROM "businesses"  WHERE "businesses"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mBusiness Load (0.2ms)[0m  SELECT  "businesses".* FROM "businesses"  WHERE "businesses"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered reviews/index.html.haml within layouts/application (18.3ms)
+  Rendered shared/_header.html.haml (0.6ms)
+  Rendered shared/_messages.html.haml (0.2ms)
+Completed 200 OK in 36ms (Views: 32.1ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/general.css?body=1" for 127.0.0.1 at 2016-02-07 15:15:06 +0800
+
+
+Started GET "/assets/header.css?body=1" for 127.0.0.1 at 2016-02-07 15:15:06 +0800
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2016-02-07 15:15:06 +0800
+
+
+Started GET "/assets/profile.css?body=1" for 127.0.0.1 at 2016-02-07 15:15:06 +0800
+
+
+Started GET "/assets/public_pages.css?body=1" for 127.0.0.1 at 2016-02-07 15:15:06 +0800
+
+
+Started GET "/assets/review.css?body=1" for 127.0.0.1 at 2016-02-07 15:15:06 +0800
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2016-02-07 15:15:06 +0800
+
+
+Started GET "/assets/whitespace-reset.css?body=1" for 127.0.0.1 at 2016-02-07 15:15:06 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-02-07 15:15:06 +0800
+
+
+Started GET "/assets/rails_bootstrap_forms.css?body=1" for 127.0.0.1 at 2016-02-07 15:15:06 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-02-07 15:15:06 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-02-07 15:15:06 +0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-02-07 15:15:06 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-02-07 15:15:06 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-02-07 15:15:07 +0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-02-07 15:15:07 +0800
+
+
+Started GET "/reviews" for 127.0.0.1 at 2016-02-07 15:16:43 +0800
+Processing by ReviewsController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mReview Load (0.3ms)[0m  [1mSELECT "reviews".* FROM "reviews"   ORDER BY created_at DESC[0m
+  [1m[35mBusiness Load (0.2ms)[0m  SELECT  "businesses".* FROM "businesses"  WHERE "businesses"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mBusiness Load (0.2ms)[0m  SELECT  "businesses".* FROM "businesses"  WHERE "businesses"."id" = $1 LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mBusiness Load (0.2ms)[0m  SELECT  "businesses".* FROM "businesses"  WHERE "businesses"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mBusiness Load (0.2ms)[0m  SELECT  "businesses".* FROM "businesses"  WHERE "businesses"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered reviews/index.html.haml within layouts/application (12.2ms)
+  Rendered shared/_header.html.haml (0.9ms)
+  Rendered shared/_messages.html.haml (0.2ms)
+Completed 200 OK in 31ms (Views: 28.0ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/general.css?body=1" for 127.0.0.1 at 2016-02-07 15:16:43 +0800
+
+
+Started GET "/assets/header.css?body=1" for 127.0.0.1 at 2016-02-07 15:16:43 +0800
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2016-02-07 15:16:43 +0800
+
+
+Started GET "/assets/profile.css?body=1" for 127.0.0.1 at 2016-02-07 15:16:43 +0800
+
+
+Started GET "/assets/public_pages.css?body=1" for 127.0.0.1 at 2016-02-07 15:16:43 +0800
+
+
+Started GET "/assets/review.css?body=1" for 127.0.0.1 at 2016-02-07 15:16:43 +0800
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2016-02-07 15:16:43 +0800
+
+
+Started GET "/assets/whitespace-reset.css?body=1" for 127.0.0.1 at 2016-02-07 15:16:43 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-02-07 15:16:43 +0800
+
+
+Started GET "/assets/rails_bootstrap_forms.css?body=1" for 127.0.0.1 at 2016-02-07 15:16:43 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-02-07 15:16:43 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-02-07 15:16:43 +0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-02-07 15:16:43 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-02-07 15:16:43 +0800
+
+
+Started GET "/reviews" for 127.0.0.1 at 2016-02-07 15:23:59 +0800
+Processing by ReviewsController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mReview Load (0.4ms)[0m  [1mSELECT "reviews".* FROM "reviews"   ORDER BY created_at DESC[0m
+  [1m[35mBusiness Load (0.2ms)[0m  SELECT  "businesses".* FROM "businesses"  WHERE "businesses"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mBusiness Load (0.2ms)[0m  SELECT  "businesses".* FROM "businesses"  WHERE "businesses"."id" = $1 LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mBusiness Load (0.2ms)[0m  SELECT  "businesses".* FROM "businesses"  WHERE "businesses"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mBusiness Load (0.2ms)[0m  SELECT  "businesses".* FROM "businesses"  WHERE "businesses"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered reviews/index.html.haml within layouts/application (11.5ms)
+  Rendered shared/_header.html.haml (0.6ms)
+  Rendered shared/_messages.html.haml (0.2ms)
+Completed 200 OK in 32ms (Views: 28.6ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/general.css?body=1" for 127.0.0.1 at 2016-02-07 15:24:00 +0800
+
+
+Started GET "/assets/header.css?body=1" for 127.0.0.1 at 2016-02-07 15:24:00 +0800
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2016-02-07 15:24:00 +0800
+
+
+Started GET "/assets/profile.css?body=1" for 127.0.0.1 at 2016-02-07 15:24:00 +0800
+
+
+Started GET "/assets/public_pages.css?body=1" for 127.0.0.1 at 2016-02-07 15:24:00 +0800
+
+
+Started GET "/assets/review.css?body=1" for 127.0.0.1 at 2016-02-07 15:24:00 +0800
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2016-02-07 15:24:00 +0800
+
+
+Started GET "/assets/whitespace-reset.css?body=1" for 127.0.0.1 at 2016-02-07 15:24:00 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-02-07 15:24:00 +0800
+
+
+Started GET "/assets/rails_bootstrap_forms.css?body=1" for 127.0.0.1 at 2016-02-07 15:24:00 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-02-07 15:24:00 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-02-07 15:24:00 +0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-02-07 15:24:00 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-02-07 15:24:00 +0800
+
+
+Started GET "/businesses/4" for 127.0.0.1 at 2016-02-07 15:59:26 +0800
+Processing by BusinessesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mUser Load (1.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mBusiness Load (0.5ms)[0m  [1mSELECT  "businesses".* FROM "businesses"  WHERE "businesses"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35mReview Load (0.4ms)[0m  SELECT "reviews".* FROM "reviews"  WHERE "reviews"."business_id" = $1  ORDER BY created_at DESC  [["business_id", 4]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered businesses/show.html.haml within layouts/application (82.3ms)
+  Rendered shared/_header.html.haml (2.6ms)
+  Rendered shared/_messages.html.haml (0.7ms)
+Completed 200 OK in 164ms (Views: 116.5ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/assets/general.css?body=1" for 127.0.0.1 at 2016-02-07 15:59:27 +0800
+
+
+Started GET "/assets/header.css?body=1" for 127.0.0.1 at 2016-02-07 15:59:27 +0800
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2016-02-07 15:59:27 +0800
+
+
+Started GET "/assets/profile.css?body=1" for 127.0.0.1 at 2016-02-07 15:59:27 +0800
+
+
+Started GET "/assets/public_pages.css?body=1" for 127.0.0.1 at 2016-02-07 15:59:27 +0800
+
+
+Started GET "/assets/review.css?body=1" for 127.0.0.1 at 2016-02-07 15:59:27 +0800
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2016-02-07 15:59:27 +0800
+
+
+Started GET "/assets/whitespace-reset.css?body=1" for 127.0.0.1 at 2016-02-07 15:59:27 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-02-07 15:59:27 +0800
+
+
+Started GET "/assets/rails_bootstrap_forms.css?body=1" for 127.0.0.1 at 2016-02-07 15:59:27 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-02-07 15:59:27 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-02-07 15:59:27 +0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-02-07 15:59:27 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-02-07 15:59:27 +0800
+
+
+Started POST "/businesses/4/reviews" for 127.0.0.1 at 2016-02-07 15:59:32 +0800
+Processing by ReviewsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"91EizVqkpaXHFnh9ntHkCrEbzCjSYuhts1F1wNbHCP4=", "review"=>{"rating"=>"", "review"=>"jsdf"}, "commit"=>"Submit", "business_id"=>"4"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mBusiness Load (0.6ms)[0m  [1mSELECT  "businesses".* FROM "businesses"  WHERE "businesses"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  Rendered businesses/show.html.haml within layouts/application (12.1ms)
+Completed 500 Internal Server Error in 23ms
+
+NoMethodError - undefined method `each' for nil:NilClass:
+  app/views/businesses/show.html.haml:32:in `_app_views_businesses_show_html_haml___3304608362511458465_70244661131240'
+  actionview (4.1.1) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.1.1) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.1) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.1) lib/action_view/template.rb:143:in `render'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:55:in `block (2 levels) in render_template'
+  actionview (4.1.1) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `instrument'
+  actionview (4.1.1) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:54:in `block in render_template'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:62:in `render_with_layout'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:53:in `render_template'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionview (4.1.1) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.1.1) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.1.1) lib/action_view/rendering.rb:99:in `_render_template'
+  actionpack (4.1.1) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.1.1) lib/action_view/rendering.rb:82:in `render_to_body'
+  actionpack (4.1.1) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.1.1) lib/action_controller/metal/renderers.rb:32:in `render_to_body'
+  actionpack (4.1.1) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.1.1) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.1.1) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/RubyTang/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.1.1) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.1.1) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  app/controllers/reviews_controller.rb:17:in `create'
+  actionpack (4.1.1) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (4.1.1) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.1.1) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.1) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.1) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.1) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.1) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.1) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.1) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.5) lib/rack/etag.rb:23:in `call'
+  rack (1.5.5) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.5) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.1) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  thin (1.6.4) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.4) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.4) lib/thin/connection.rb:53:in `process'
+  thin (1.6.4) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.8) lib/eventmachine.rb:193:in `run'
+  thin (1.6.4) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.4) lib/thin/server.rb:162:in `start'
+  rack (1.5.5) lib/rack/handler/thin.rb:16:in `run'
+  rack (1.5.5) lib/rack/server.rb:264:in `start'
+  railties (4.1.1) lib/rails/commands/server.rb:69:in `start'
+  railties (4.1.1) lib/rails/commands/commands_tasks.rb:81:in `block in server'
+  railties (4.1.1) lib/rails/commands/commands_tasks.rb:76:in `server'
+  railties (4.1.1) lib/rails/commands/commands_tasks.rb:40:in `run_command!'
+  railties (4.1.1) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `<main>'
+
+
+
+Started POST "/__better_errors/8b0e29651cdb866b/variables" for 127.0.0.1 at 2016-02-07 15:59:33 +0800
+
+
+Started POST "/businesses/4/reviews" for 127.0.0.1 at 2016-02-07 16:09:04 +0800
+Processing by ReviewsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"91EizVqkpaXHFnh9ntHkCrEbzCjSYuhts1F1wNbHCP4=", "review"=>{"rating"=>"", "review"=>"jsdf"}, "commit"=>"Submit", "business_id"=>"4"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mBusiness Load (0.2ms)[0m  [1mSELECT  "businesses".* FROM "businesses"  WHERE "businesses"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  Rendered businesses/show.html.haml within layouts/application (12.1ms)
+Completed 500 Internal Server Error in 48ms
+
+NoMethodError - undefined method `each' for nil:NilClass:
+  app/views/businesses/show.html.haml:32:in `_app_views_businesses_show_html_haml___3304608362511458465_70244661131240'
+  actionview (4.1.1) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.1.1) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.1) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.1) lib/action_view/template.rb:143:in `render'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:55:in `block (2 levels) in render_template'
+  actionview (4.1.1) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `instrument'
+  actionview (4.1.1) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:54:in `block in render_template'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:62:in `render_with_layout'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:53:in `render_template'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionview (4.1.1) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.1.1) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.1.1) lib/action_view/rendering.rb:99:in `_render_template'
+  actionpack (4.1.1) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.1.1) lib/action_view/rendering.rb:82:in `render_to_body'
+  actionpack (4.1.1) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.1.1) lib/action_controller/metal/renderers.rb:32:in `render_to_body'
+  actionpack (4.1.1) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.1.1) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.1.1) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/RubyTang/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.1.1) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.1.1) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  app/controllers/reviews_controller.rb:17:in `create'
+  actionpack (4.1.1) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (4.1.1) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.1.1) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.1) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.1) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.1) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.1) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.1) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.1) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.5) lib/rack/etag.rb:23:in `call'
+  rack (1.5.5) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.5) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.1) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  thin (1.6.4) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.4) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.4) lib/thin/connection.rb:53:in `process'
+  thin (1.6.4) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.8) lib/eventmachine.rb:193:in `run'
+  thin (1.6.4) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.4) lib/thin/server.rb:162:in `start'
+  rack (1.5.5) lib/rack/handler/thin.rb:16:in `run'
+  rack (1.5.5) lib/rack/server.rb:264:in `start'
+  railties (4.1.1) lib/rails/commands/server.rb:69:in `start'
+  railties (4.1.1) lib/rails/commands/commands_tasks.rb:81:in `block in server'
+  railties (4.1.1) lib/rails/commands/commands_tasks.rb:76:in `server'
+  railties (4.1.1) lib/rails/commands/commands_tasks.rb:40:in `run_command!'
+  railties (4.1.1) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `<main>'
+
+
+
+Started POST "/__better_errors/6fbec27ebebf5182/variables" for 127.0.0.1 at 2016-02-07 16:09:05 +0800
+
+
+Started POST "/businesses/4/reviews" for 127.0.0.1 at 2016-02-07 16:09:14 +0800
+Processing by ReviewsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"91EizVqkpaXHFnh9ntHkCrEbzCjSYuhts1F1wNbHCP4=", "review"=>{"rating"=>"", "review"=>"jsdf"}, "commit"=>"Submit", "business_id"=>"4"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mBusiness Load (0.3ms)[0m  [1mSELECT  "businesses".* FROM "businesses"  WHERE "businesses"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  Rendered businesses/show.html.haml within layouts/application (5.3ms)
+Completed 500 Internal Server Error in 16ms
+
+NoMethodError - undefined method `each' for nil:NilClass:
+  app/views/businesses/show.html.haml:32:in `_app_views_businesses_show_html_haml___3304608362511458465_70244661131240'
+  actionview (4.1.1) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.1.1) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.1) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.1) lib/action_view/template.rb:143:in `render'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:55:in `block (2 levels) in render_template'
+  actionview (4.1.1) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `instrument'
+  actionview (4.1.1) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:54:in `block in render_template'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:62:in `render_with_layout'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:53:in `render_template'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionview (4.1.1) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.1.1) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.1.1) lib/action_view/rendering.rb:99:in `_render_template'
+  actionpack (4.1.1) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.1.1) lib/action_view/rendering.rb:82:in `render_to_body'
+  actionpack (4.1.1) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.1.1) lib/action_controller/metal/renderers.rb:32:in `render_to_body'
+  actionpack (4.1.1) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.1.1) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.1.1) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/RubyTang/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.1.1) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.1.1) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  app/controllers/reviews_controller.rb:17:in `create'
+  actionpack (4.1.1) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (4.1.1) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.1.1) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.1) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.1) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.1) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.1) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.1) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.1) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.5) lib/rack/etag.rb:23:in `call'
+  rack (1.5.5) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.5) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.1) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  thin (1.6.4) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.4) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.4) lib/thin/connection.rb:53:in `process'
+  thin (1.6.4) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.8) lib/eventmachine.rb:193:in `run'
+  thin (1.6.4) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.4) lib/thin/server.rb:162:in `start'
+  rack (1.5.5) lib/rack/handler/thin.rb:16:in `run'
+  rack (1.5.5) lib/rack/server.rb:264:in `start'
+  railties (4.1.1) lib/rails/commands/server.rb:69:in `start'
+  railties (4.1.1) lib/rails/commands/commands_tasks.rb:81:in `block in server'
+  railties (4.1.1) lib/rails/commands/commands_tasks.rb:76:in `server'
+  railties (4.1.1) lib/rails/commands/commands_tasks.rb:40:in `run_command!'
+  railties (4.1.1) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `<main>'
+
+
+
+Started POST "/__better_errors/0bd443c669d1e54c/variables" for 127.0.0.1 at 2016-02-07 16:09:14 +0800
+
+
+Started POST "/__better_errors/0bd443c669d1e54c/eval" for 127.0.0.1 at 2016-02-07 16:10:20 +0800
+
+
+Started POST "/__better_errors/0bd443c669d1e54c/eval" for 127.0.0.1 at 2016-02-07 16:10:42 +0800
+
+
+Started GET "/ui/user" for 127.0.0.1 at 2016-02-10 16:56:49 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (2.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+AbstractController::ActionNotFound - The action 'user' could not be found for UiController:
+  actionpack (4.1.1) lib/abstract_controller/base.rb:131:in `process'
+  actionview (4.1.1) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.1) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.1) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.5) lib/rack/etag.rb:23:in `call'
+  rack (1.5.5) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.5) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.1) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  thin (1.6.4) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.4) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.4) lib/thin/connection.rb:53:in `process'
+  thin (1.6.4) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.8) lib/eventmachine.rb:193:in `run'
+  thin (1.6.4) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.4) lib/thin/server.rb:162:in `start'
+  rack (1.5.5) lib/rack/handler/thin.rb:16:in `run'
+  rack (1.5.5) lib/rack/server.rb:264:in `start'
+  railties (4.1.1) lib/rails/commands/server.rb:69:in `start'
+  railties (4.1.1) lib/rails/commands/commands_tasks.rb:81:in `block in server'
+  railties (4.1.1) lib/rails/commands/commands_tasks.rb:76:in `server'
+  railties (4.1.1) lib/rails/commands/commands_tasks.rb:40:in `run_command!'
+  railties (4.1.1) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `<main>'
+
+
+
+Started POST "/__better_errors/61482ce9cd461d3b/variables" for 127.0.0.1 at 2016-02-10 16:56:50 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-10 16:56:54 +0800
+Processing by PagesController#front as HTML
+  [1m[35mUser Load (1.9ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+Redirected to http://localhost:3000/home
+Completed 302 Found in 26ms (ActiveRecord: 4.8ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-02-10 16:56:54 +0800
+Processing by BusinessesController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCategory Load (1.3ms)[0m  SELECT "categories".* FROM "categories"
+  [1m[36mBusiness Load (1.8ms)[0m  [1mSELECT  "businesses".* FROM "businesses"  WHERE "businesses"."category_id" = $1  ORDER BY created_at DESC LIMIT 3[0m  [["category_id", 1]]
+  [1m[35mBusiness Load (0.4ms)[0m  SELECT  "businesses".* FROM "businesses"  WHERE "businesses"."category_id" = $1  ORDER BY created_at DESC LIMIT 3  [["category_id", 2]]
+  [1m[36mBusiness Load (0.3ms)[0m  [1mSELECT  "businesses".* FROM "businesses"  WHERE "businesses"."category_id" = $1  ORDER BY created_at DESC LIMIT 3[0m  [["category_id", 3]]
+  [1m[35mBusiness Load (0.3ms)[0m  SELECT  "businesses".* FROM "businesses"  WHERE "businesses"."category_id" = $1  ORDER BY created_at DESC LIMIT 3  [["category_id", 4]]
+  [1m[36mBusiness Load (0.3ms)[0m  [1mSELECT  "businesses".* FROM "businesses"  WHERE "businesses"."category_id" = $1  ORDER BY created_at DESC LIMIT 3[0m  [["category_id", 5]]
+  Rendered businesses/index.html.haml within layouts/application (52.1ms)
+  Rendered shared/_header.html.haml (10.8ms)
+  Rendered shared/_messages.html.haml (1.5ms)
+Completed 200 OK in 182ms (Views: 168.9ms | ActiveRecord: 9.5ms)
+
+
+Started GET "/assets/profile.css?body=1" for 127.0.0.1 at 2016-02-10 16:56:54 +0800
+
+
+Started GET "/assets/review.css?body=1" for 127.0.0.1 at 2016-02-10 16:56:54 +0800
+
+
+Started GET "/assets/rails_bootstrap_forms.css?body=1" for 127.0.0.1 at 2016-02-10 16:56:54 +0800
+
+
+Started GET "/assets/public_pages.css?body=1" for 127.0.0.1 at 2016-02-10 16:56:54 +0800
+
+
+Started GET "/assets/header.css?body=1" for 127.0.0.1 at 2016-02-10 16:56:54 +0800
+
+
+Started GET "/assets/general.css?body=1" for 127.0.0.1 at 2016-02-10 16:56:54 +0800
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2016-02-10 16:56:54 +0800
+
+
+Started GET "/assets/whitespace-reset.css?body=1" for 127.0.0.1 at 2016-02-10 16:56:54 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-02-10 16:56:54 +0800
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2016-02-10 16:56:54 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-02-10 16:56:54 +0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-02-10 16:56:54 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-02-10 16:56:54 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-02-10 16:56:54 +0800
+
+
+Started GET "/businesses/5" for 127.0.0.1 at 2016-02-10 16:56:57 +0800
+Processing by BusinessesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mBusiness Load (2.0ms)[0m  [1mSELECT  "businesses".* FROM "businesses"  WHERE "businesses"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mReview Load (8.5ms)[0m  SELECT "reviews".* FROM "reviews"  WHERE "reviews"."business_id" = $1  ORDER BY created_at DESC  [["business_id", 5]]
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered businesses/show.html.haml within layouts/application (1352.9ms)
+  Rendered shared/_header.html.haml (0.5ms)
+  Rendered shared/_messages.html.haml (0.3ms)
+Completed 200 OK in 1393ms (Views: 1365.2ms | ActiveRecord: 15.7ms)
+
+
+Started POST "/businesses/5/reviews" for 127.0.0.1 at 2016-02-10 16:57:00 +0800
+Processing by ReviewsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"91EizVqkpaXHFnh9ntHkCrEbzCjSYuhts1F1wNbHCP4=", "review"=>{"rating"=>"", "review"=>""}, "commit"=>"Submit", "business_id"=>"5"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mBusiness Load (0.3ms)[0m  [1mSELECT  "businesses".* FROM "businesses"  WHERE "businesses"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  Rendered businesses/show.html.haml within layouts/application (7.3ms)
+Completed 500 Internal Server Error in 16ms
+
+NoMethodError - undefined method `each' for nil:NilClass:
+  app/views/businesses/show.html.haml:32:in `_app_views_businesses_show_html_haml__534057031651342810_70173638112980'
+  actionview (4.1.1) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.1.1) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.1) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.1) lib/action_view/template.rb:143:in `render'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:55:in `block (2 levels) in render_template'
+  actionview (4.1.1) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `instrument'
+  actionview (4.1.1) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:54:in `block in render_template'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:62:in `render_with_layout'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:53:in `render_template'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionview (4.1.1) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.1.1) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.1.1) lib/action_view/rendering.rb:99:in `_render_template'
+  actionpack (4.1.1) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.1.1) lib/action_view/rendering.rb:82:in `render_to_body'
+  actionpack (4.1.1) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.1.1) lib/action_controller/metal/renderers.rb:32:in `render_to_body'
+  actionpack (4.1.1) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.1.1) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.1.1) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/RubyTang/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.1.1) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.1.1) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  app/controllers/reviews_controller.rb:17:in `create'
+  actionpack (4.1.1) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (4.1.1) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.1.1) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.1) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.1) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.1) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.1) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.1) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.1) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.5) lib/rack/etag.rb:23:in `call'
+  rack (1.5.5) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.5) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.1) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  thin (1.6.4) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.4) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.4) lib/thin/connection.rb:53:in `process'
+  thin (1.6.4) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.8) lib/eventmachine.rb:193:in `run'
+  thin (1.6.4) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.4) lib/thin/server.rb:162:in `start'
+  rack (1.5.5) lib/rack/handler/thin.rb:16:in `run'
+  rack (1.5.5) lib/rack/server.rb:264:in `start'
+  railties (4.1.1) lib/rails/commands/server.rb:69:in `start'
+  railties (4.1.1) lib/rails/commands/commands_tasks.rb:81:in `block in server'
+  railties (4.1.1) lib/rails/commands/commands_tasks.rb:76:in `server'
+  railties (4.1.1) lib/rails/commands/commands_tasks.rb:40:in `run_command!'
+  railties (4.1.1) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `<main>'
+
+
+
+Started POST "/__better_errors/01cc22775cb0b001/variables" for 127.0.0.1 at 2016-02-10 16:57:01 +0800
+
+
+Started POST "/businesses/5/reviews" for 127.0.0.1 at 2016-02-10 17:06:03 +0800
+Processing by ReviewsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"91EizVqkpaXHFnh9ntHkCrEbzCjSYuhts1F1wNbHCP4=", "review"=>{"rating"=>"", "review"=>"dsd"}, "commit"=>"Submit", "business_id"=>"5"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mBusiness Load (0.4ms)[0m  [1mSELECT  "businesses".* FROM "businesses"  WHERE "businesses"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  Rendered businesses/show.html.haml within layouts/application (5.3ms)
+Completed 500 Internal Server Error in 16ms
+
+NoMethodError - undefined method `each' for nil:NilClass:
+  app/views/businesses/show.html.haml:32:in `_app_views_businesses_show_html_haml__534057031651342810_70173638112980'
+  actionview (4.1.1) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.1.1) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.1) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.1) lib/action_view/template.rb:143:in `render'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:55:in `block (2 levels) in render_template'
+  actionview (4.1.1) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `instrument'
+  actionview (4.1.1) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:54:in `block in render_template'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:62:in `render_with_layout'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:53:in `render_template'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionview (4.1.1) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.1.1) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.1.1) lib/action_view/rendering.rb:99:in `_render_template'
+  actionpack (4.1.1) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.1.1) lib/action_view/rendering.rb:82:in `render_to_body'
+  actionpack (4.1.1) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.1.1) lib/action_controller/metal/renderers.rb:32:in `render_to_body'
+  actionpack (4.1.1) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.1.1) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.1.1) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/RubyTang/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.1.1) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.1.1) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  app/controllers/reviews_controller.rb:17:in `create'
+  actionpack (4.1.1) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (4.1.1) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.1.1) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.1) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.1) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.1) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.1) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.1) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.1) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.5) lib/rack/etag.rb:23:in `call'
+  rack (1.5.5) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.5) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.1) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  thin (1.6.4) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.4) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.4) lib/thin/connection.rb:53:in `process'
+  thin (1.6.4) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.8) lib/eventmachine.rb:193:in `run'
+  thin (1.6.4) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.4) lib/thin/server.rb:162:in `start'
+  rack (1.5.5) lib/rack/handler/thin.rb:16:in `run'
+  rack (1.5.5) lib/rack/server.rb:264:in `start'
+  railties (4.1.1) lib/rails/commands/server.rb:69:in `start'
+  railties (4.1.1) lib/rails/commands/commands_tasks.rb:81:in `block in server'
+  railties (4.1.1) lib/rails/commands/commands_tasks.rb:76:in `server'
+  railties (4.1.1) lib/rails/commands/commands_tasks.rb:40:in `run_command!'
+  railties (4.1.1) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `<main>'
+
+
+
+Started POST "/__better_errors/ee6b7371a624bc90/variables" for 127.0.0.1 at 2016-02-10 17:06:03 +0800
+
+
+Started POST "/businesses/5/reviews" for 127.0.0.1 at 2016-02-10 17:06:09 +0800
+Processing by ReviewsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"91EizVqkpaXHFnh9ntHkCrEbzCjSYuhts1F1wNbHCP4=", "review"=>{"rating"=>"5 stars", "review"=>"dsd"}, "commit"=>"Submit", "business_id"=>"5"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mBusiness Load (0.3ms)[0m  [1mSELECT  "businesses".* FROM "businesses"  WHERE "businesses"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (10.8ms)[0m  [1mINSERT INTO "reviews" ("business_id", "created_at", "rating", "review", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["business_id", 5], ["created_at", "2016-02-10 09:06:09.027447"], ["rating", 5], ["review", "dsd"], ["updated_at", "2016-02-10 09:06:09.027447"], ["user_id", 2]]
+  [1m[35m (1.4ms)[0m  COMMIT
+Redirected to http://localhost:3000/businesses/5
+Completed 302 Found in 19ms (ActiveRecord: 12.8ms)
+
+
+Started GET "/businesses/5" for 127.0.0.1 at 2016-02-10 17:06:09 +0800
+Processing by BusinessesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mBusiness Load (1.6ms)[0m  SELECT  "businesses".* FROM "businesses"  WHERE "businesses"."id" = $1 LIMIT 1  [["id", 5]]
+  [1m[36mReview Load (0.6ms)[0m  [1mSELECT "reviews".* FROM "reviews"  WHERE "reviews"."business_id" = $1  ORDER BY created_at DESC[0m  [["business_id", 5]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered businesses/show.html.haml within layouts/application (7.6ms)
+  Rendered shared/_header.html.haml (0.6ms)
+  Rendered shared/_messages.html.haml (0.3ms)
+Completed 200 OK in 33ms (Views: 24.7ms | ActiveRecord: 2.8ms)
+
+
+Started POST "/businesses/5/reviews" for 127.0.0.1 at 2016-02-10 17:41:06 +0800
+Processing by ReviewsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"91EizVqkpaXHFnh9ntHkCrEbzCjSYuhts1F1wNbHCP4=", "review"=>{"rating"=>"", "review"=>""}, "commit"=>"Submit", "business_id"=>"5"}
+  [1m[35mUser Load (0.9ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mBusiness Load (0.7ms)[0m  [1mSELECT  "businesses".* FROM "businesses"  WHERE "businesses"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  Rendered businesses/show.html.haml within layouts/application (31.5ms)
+Completed 500 Internal Server Error in 112ms
+
+NoMethodError - undefined method `each' for nil:NilClass:
+  app/views/businesses/show.html.haml:32:in `_app_views_businesses_show_html_haml__534057031651342810_70173638112980'
+  actionview (4.1.1) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.1.1) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.1) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.1) lib/action_view/template.rb:143:in `render'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:55:in `block (2 levels) in render_template'
+  actionview (4.1.1) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `instrument'
+  actionview (4.1.1) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:54:in `block in render_template'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:62:in `render_with_layout'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:53:in `render_template'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionview (4.1.1) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.1.1) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.1.1) lib/action_view/rendering.rb:99:in `_render_template'
+  actionpack (4.1.1) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.1.1) lib/action_view/rendering.rb:82:in `render_to_body'
+  actionpack (4.1.1) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.1.1) lib/action_controller/metal/renderers.rb:32:in `render_to_body'
+  actionpack (4.1.1) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.1.1) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.1.1) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/RubyTang/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.1.1) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.1.1) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  app/controllers/reviews_controller.rb:17:in `create'
+  actionpack (4.1.1) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (4.1.1) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.1.1) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.1) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.1) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.1) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.1) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.1) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.1) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.5) lib/rack/etag.rb:23:in `call'
+  rack (1.5.5) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.5) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.1) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  thin (1.6.4) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.4) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.4) lib/thin/connection.rb:53:in `process'
+  thin (1.6.4) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.8) lib/eventmachine.rb:193:in `run'
+  thin (1.6.4) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.4) lib/thin/server.rb:162:in `start'
+  rack (1.5.5) lib/rack/handler/thin.rb:16:in `run'
+  rack (1.5.5) lib/rack/server.rb:264:in `start'
+  railties (4.1.1) lib/rails/commands/server.rb:69:in `start'
+  railties (4.1.1) lib/rails/commands/commands_tasks.rb:81:in `block in server'
+  railties (4.1.1) lib/rails/commands/commands_tasks.rb:76:in `server'
+  railties (4.1.1) lib/rails/commands/commands_tasks.rb:40:in `run_command!'
+  railties (4.1.1) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `<main>'
+
+
+
+Started POST "/__better_errors/05423c6440fd3ba6/variables" for 127.0.0.1 at 2016-02-10 17:41:07 +0800
+
+
+Started POST "/__better_errors/05423c6440fd3ba6/eval" for 127.0.0.1 at 2016-02-10 17:41:12 +0800
+
+
+Started POST "/businesses/5/reviews" for 127.0.0.1 at 2016-02-10 17:44:40 +0800
+Processing by ReviewsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"91EizVqkpaXHFnh9ntHkCrEbzCjSYuhts1F1wNbHCP4=", "review"=>{"rating"=>"", "review"=>""}, "commit"=>"Submit", "business_id"=>"5"}
+  [1m[35mUser Load (1.9ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mBusiness Load (0.8ms)[0m  [1mSELECT  "businesses".* FROM "businesses"  WHERE "businesses"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35m (1.0ms)[0m  BEGIN
+  [1m[36m (0.8ms)[0m  [1mROLLBACK[0m
+  [1m[35mReview Load (1.0ms)[0m  SELECT "reviews".* FROM "reviews"  WHERE "reviews"."business_id" = $1  ORDER BY created_at DESC  [["business_id", 5]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered businesses/show.html.haml within layouts/application (43.9ms)
+  Rendered shared/_header.html.haml (0.8ms)
+  Rendered shared/_messages.html.haml (0.3ms)
+Completed 200 OK in 167ms (Views: 64.8ms | ActiveRecord: 53.5ms)
+
+
+Started GET "/assets/general.css?body=1" for 127.0.0.1 at 2016-02-10 17:44:40 +0800
+
+
+Started GET "/assets/header.css?body=1" for 127.0.0.1 at 2016-02-10 17:44:40 +0800
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2016-02-10 17:44:40 +0800
+
+
+Started GET "/assets/profile.css?body=1" for 127.0.0.1 at 2016-02-10 17:44:40 +0800
+
+
+Started GET "/assets/public_pages.css?body=1" for 127.0.0.1 at 2016-02-10 17:44:40 +0800
+
+
+Started GET "/assets/review.css?body=1" for 127.0.0.1 at 2016-02-10 17:44:40 +0800
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2016-02-10 17:44:40 +0800
+
+
+Started GET "/assets/whitespace-reset.css?body=1" for 127.0.0.1 at 2016-02-10 17:44:40 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-02-10 17:44:40 +0800
+
+
+Started GET "/assets/rails_bootstrap_forms.css?body=1" for 127.0.0.1 at 2016-02-10 17:44:40 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-02-10 17:44:40 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-02-10 17:44:40 +0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-02-10 17:44:40 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-02-10 17:44:40 +0800
+
+
+Started POST "/businesses/5/reviews" for 127.0.0.1 at 2016-02-10 17:48:20 +0800
+Processing by ReviewsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"91EizVqkpaXHFnh9ntHkCrEbzCjSYuhts1F1wNbHCP4=", "review"=>{"rating"=>"", "review"=>""}, "commit"=>"Submit", "business_id"=>"5"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mBusiness Load (0.3ms)[0m  SELECT  "businesses".* FROM "businesses"  WHERE "businesses"."id" = $1 LIMIT 1  [["id", 5]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36mReview Load (0.4ms)[0m  [1mSELECT "reviews".* FROM "reviews"  WHERE "reviews"."business_id" = $1  ORDER BY created_at DESC[0m  [["business_id", 5]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered businesses/show.html.haml within layouts/application (13.3ms)
+  Rendered shared/_header.html.haml (0.7ms)
+  Rendered shared/_messages.html.haml (0.4ms)
+Completed 200 OK in 62ms (Views: 32.2ms | ActiveRecord: 6.4ms)
+
+
+Started GET "/assets/general.css?body=1" for 127.0.0.1 at 2016-02-10 17:48:21 +0800
+
+
+Started GET "/assets/header.css?body=1" for 127.0.0.1 at 2016-02-10 17:48:21 +0800
+
+
+Started GET "/assets/profile.css?body=1" for 127.0.0.1 at 2016-02-10 17:48:21 +0800
+
+
+Started GET "/assets/public_pages.css?body=1" for 127.0.0.1 at 2016-02-10 17:48:21 +0800
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2016-02-10 17:48:21 +0800
+
+
+Started GET "/assets/review.css?body=1" for 127.0.0.1 at 2016-02-10 17:48:21 +0800
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2016-02-10 17:48:21 +0800
+
+
+Started GET "/assets/whitespace-reset.css?body=1" for 127.0.0.1 at 2016-02-10 17:48:21 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-02-10 17:48:21 +0800
+
+
+Started GET "/assets/rails_bootstrap_forms.css?body=1" for 127.0.0.1 at 2016-02-10 17:48:21 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-02-10 17:48:21 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-02-10 17:48:21 +0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-02-10 17:48:21 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-02-10 17:48:21 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-10 17:48:39 +0800
+Processing by PagesController#front as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+Redirected to http://localhost:3000/home
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-02-10 17:48:39 +0800
+Processing by BusinessesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories"
+  [1m[36mBusiness Load (0.4ms)[0m  [1mSELECT  "businesses".* FROM "businesses"  WHERE "businesses"."category_id" = $1  ORDER BY created_at DESC LIMIT 3[0m  [["category_id", 1]]
+  [1m[35mBusiness Load (0.2ms)[0m  SELECT  "businesses".* FROM "businesses"  WHERE "businesses"."category_id" = $1  ORDER BY created_at DESC LIMIT 3  [["category_id", 2]]
+  [1m[36mBusiness Load (0.2ms)[0m  [1mSELECT  "businesses".* FROM "businesses"  WHERE "businesses"."category_id" = $1  ORDER BY created_at DESC LIMIT 3[0m  [["category_id", 3]]
+  [1m[35mBusiness Load (0.2ms)[0m  SELECT  "businesses".* FROM "businesses"  WHERE "businesses"."category_id" = $1  ORDER BY created_at DESC LIMIT 3  [["category_id", 4]]
+  [1m[36mBusiness Load (0.2ms)[0m  [1mSELECT  "businesses".* FROM "businesses"  WHERE "businesses"."category_id" = $1  ORDER BY created_at DESC LIMIT 3[0m  [["category_id", 5]]
+  Rendered businesses/index.html.haml within layouts/application (19.5ms)
+  Rendered shared/_header.html.haml (0.6ms)
+  Rendered shared/_messages.html.haml (0.3ms)
+Completed 200 OK in 37ms (Views: 29.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/general.css?body=1" for 127.0.0.1 at 2016-02-10 17:48:39 +0800
+
+
+Started GET "/assets/header.css?body=1" for 127.0.0.1 at 2016-02-10 17:48:39 +0800
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2016-02-10 17:48:39 +0800
+
+
+Started GET "/assets/profile.css?body=1" for 127.0.0.1 at 2016-02-10 17:48:39 +0800
+
+
+Started GET "/assets/public_pages.css?body=1" for 127.0.0.1 at 2016-02-10 17:48:39 +0800
+
+
+Started GET "/assets/review.css?body=1" for 127.0.0.1 at 2016-02-10 17:48:39 +0800
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2016-02-10 17:48:39 +0800
+
+
+Started GET "/assets/whitespace-reset.css?body=1" for 127.0.0.1 at 2016-02-10 17:48:39 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-02-10 17:48:39 +0800
+
+
+Started GET "/assets/rails_bootstrap_forms.css?body=1" for 127.0.0.1 at 2016-02-10 17:48:39 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-02-10 17:48:39 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-02-10 17:48:39 +0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-02-10 17:48:39 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-02-10 17:48:39 +0800
+
+
+Started GET "/home" for 127.0.0.1 at 2016-02-10 17:49:09 +0800
+Processing by BusinessesController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  [1m[35mBusiness Load (0.2ms)[0m  SELECT  "businesses".* FROM "businesses"  WHERE "businesses"."category_id" = $1  ORDER BY created_at DESC LIMIT 3  [["category_id", 1]]
+  [1m[36mBusiness Load (0.5ms)[0m  [1mSELECT  "businesses".* FROM "businesses"  WHERE "businesses"."category_id" = $1  ORDER BY created_at DESC LIMIT 3[0m  [["category_id", 2]]
+  [1m[35mBusiness Load (0.3ms)[0m  SELECT  "businesses".* FROM "businesses"  WHERE "businesses"."category_id" = $1  ORDER BY created_at DESC LIMIT 3  [["category_id", 3]]
+  [1m[36mBusiness Load (0.2ms)[0m  [1mSELECT  "businesses".* FROM "businesses"  WHERE "businesses"."category_id" = $1  ORDER BY created_at DESC LIMIT 3[0m  [["category_id", 4]]
+  [1m[35mBusiness Load (0.2ms)[0m  SELECT  "businesses".* FROM "businesses"  WHERE "businesses"."category_id" = $1  ORDER BY created_at DESC LIMIT 3  [["category_id", 5]]
+  Rendered businesses/index.html.haml within layouts/application (28.1ms)
+  Rendered shared/_header.html.haml (2.9ms)
+  Rendered shared/_messages.html.haml (0.1ms)
+Completed 200 OK in 53ms (Views: 37.4ms | ActiveRecord: 6.9ms)
+
+
+Started GET "/assets/general.css?body=1" for 127.0.0.1 at 2016-02-10 17:49:10 +0800
+
+
+Started GET "/assets/header.css?body=1" for 127.0.0.1 at 2016-02-10 17:49:10 +0800
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2016-02-10 17:49:10 +0800
+
+
+Started GET "/assets/profile.css?body=1" for 127.0.0.1 at 2016-02-10 17:49:10 +0800
+
+
+Started GET "/assets/public_pages.css?body=1" for 127.0.0.1 at 2016-02-10 17:49:10 +0800
+
+
+Started GET "/assets/review.css?body=1" for 127.0.0.1 at 2016-02-10 17:49:10 +0800
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2016-02-10 17:49:10 +0800
+
+
+Started GET "/assets/whitespace-reset.css?body=1" for 127.0.0.1 at 2016-02-10 17:49:10 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-02-10 17:49:10 +0800
+
+
+Started GET "/assets/rails_bootstrap_forms.css?body=1" for 127.0.0.1 at 2016-02-10 17:49:10 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-02-10 17:49:10 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-02-10 17:49:10 +0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-02-10 17:49:10 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-02-10 17:49:10 +0800
+
+
+Started GET "/businesses/5" for 127.0.0.1 at 2016-02-10 17:49:12 +0800
+Processing by BusinessesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mBusiness Load (1.1ms)[0m  SELECT  "businesses".* FROM "businesses"  WHERE "businesses"."id" = $1 LIMIT 1  [["id", 5]]
+  Rendered businesses/show.html.haml within layouts/application (17.6ms)
+Completed 500 Internal Server Error in 35ms
+
+NoMethodError - undefined method `each' for nil:NilClass:
+  app/views/businesses/show.html.haml:32:in `_app_views_businesses_show_html_haml__534057031651342810_70173638112980'
+  actionview (4.1.1) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.1.1) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.1) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.1) lib/action_view/template.rb:143:in `render'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:55:in `block (2 levels) in render_template'
+  actionview (4.1.1) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `instrument'
+  actionview (4.1.1) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:54:in `block in render_template'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:62:in `render_with_layout'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:53:in `render_template'
+  actionview (4.1.1) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionview (4.1.1) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.1.1) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.1.1) lib/action_view/rendering.rb:99:in `_render_template'
+  actionpack (4.1.1) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.1.1) lib/action_view/rendering.rb:82:in `render_to_body'
+  actionpack (4.1.1) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.1.1) lib/action_controller/metal/renderers.rb:32:in `render_to_body'
+  actionpack (4.1.1) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.1.1) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.1.1) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/RubyTang/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.1.1) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.1.1) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.1.1) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.1.1) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.1.1) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.1.1) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.1) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.1) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.1) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.1) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.1) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.1) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.1) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.1) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.1) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.5) lib/rack/etag.rb:23:in `call'
+  rack (1.5.5) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.5) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.1) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  thin (1.6.4) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.4) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.4) lib/thin/connection.rb:53:in `process'
+  thin (1.6.4) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.8) lib/eventmachine.rb:193:in `run'
+  thin (1.6.4) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.4) lib/thin/server.rb:162:in `start'
+  rack (1.5.5) lib/rack/handler/thin.rb:16:in `run'
+  rack (1.5.5) lib/rack/server.rb:264:in `start'
+  railties (4.1.1) lib/rails/commands/server.rb:69:in `start'
+  railties (4.1.1) lib/rails/commands/commands_tasks.rb:81:in `block in server'
+  railties (4.1.1) lib/rails/commands/commands_tasks.rb:76:in `server'
+  railties (4.1.1) lib/rails/commands/commands_tasks.rb:40:in `run_command!'
+  railties (4.1.1) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `<main>'
+
+
+
+Started POST "/__better_errors/4da6dc896ee2a956/variables" for 127.0.0.1 at 2016-02-10 17:49:12 +0800
+
+
+Started GET "/businesses/5" for 127.0.0.1 at 2016-02-10 17:49:24 +0800
+Processing by BusinessesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mBusiness Load (0.2ms)[0m  SELECT  "businesses".* FROM "businesses"  WHERE "businesses"."id" = $1 LIMIT 1  [["id", 5]]
+  [1m[36mReview Load (0.2ms)[0m  [1mSELECT "reviews".* FROM "reviews"  WHERE "reviews"."business_id" = $1  ORDER BY created_at DESC[0m  [["business_id", 5]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered businesses/show.html.haml within layouts/application (19.6ms)
+  Rendered shared/_header.html.haml (0.6ms)
+  Rendered shared/_messages.html.haml (0.1ms)
+Completed 200 OK in 55ms (Views: 35.4ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/assets/general.css?body=1" for 127.0.0.1 at 2016-02-10 17:49:24 +0800
+
+
+Started GET "/assets/header.css?body=1" for 127.0.0.1 at 2016-02-10 17:49:24 +0800
+
+
+Started GET "/assets/profile.css?body=1" for 127.0.0.1 at 2016-02-10 17:49:24 +0800
+
+
+Started GET "/assets/public_pages.css?body=1" for 127.0.0.1 at 2016-02-10 17:49:24 +0800
+
+
+Started GET "/assets/review.css?body=1" for 127.0.0.1 at 2016-02-10 17:49:24 +0800
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2016-02-10 17:49:24 +0800
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2016-02-10 17:49:24 +0800
+
+
+Started GET "/assets/whitespace-reset.css?body=1" for 127.0.0.1 at 2016-02-10 17:49:24 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-02-10 17:49:24 +0800
+
+
+Started GET "/assets/rails_bootstrap_forms.css?body=1" for 127.0.0.1 at 2016-02-10 17:49:24 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-02-10 17:49:24 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-02-10 17:49:24 +0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-02-10 17:49:24 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-02-10 17:49:24 +0800
+
+
+Started POST "/businesses/5/reviews" for 127.0.0.1 at 2016-02-10 17:49:35 +0800
+Processing by ReviewsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"91EizVqkpaXHFnh9ntHkCrEbzCjSYuhts1F1wNbHCP4=", "review"=>{"rating"=>"", "review"=>""}, "commit"=>"Submit", "business_id"=>"5"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mBusiness Load (0.5ms)[0m  [1mSELECT  "businesses".* FROM "businesses"  WHERE "businesses"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35mReview Load (0.6ms)[0m  SELECT "reviews".* FROM "reviews"  WHERE "reviews"."business_id" = $1  ORDER BY created_at DESC  [["business_id", 5]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered businesses/show.html.haml within layouts/application (5.5ms)
+  Rendered shared/_header.html.haml (0.5ms)
+  Rendered shared/_messages.html.haml (0.2ms)
+Completed 200 OK in 50ms (Views: 21.5ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/general.css?body=1" for 127.0.0.1 at 2016-02-10 17:49:36 +0800
+
+
+Started GET "/assets/header.css?body=1" for 127.0.0.1 at 2016-02-10 17:49:36 +0800
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2016-02-10 17:49:36 +0800
+
+
+Started GET "/assets/public_pages.css?body=1" for 127.0.0.1 at 2016-02-10 17:49:36 +0800
+
+
+Started GET "/assets/review.css?body=1" for 127.0.0.1 at 2016-02-10 17:49:36 +0800
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2016-02-10 17:49:36 +0800
+
+
+Started GET "/assets/profile.css?body=1" for 127.0.0.1 at 2016-02-10 17:49:36 +0800
+
+
+Started GET "/assets/whitespace-reset.css?body=1" for 127.0.0.1 at 2016-02-10 17:49:36 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-02-10 17:49:36 +0800
+
+
+Started GET "/assets/rails_bootstrap_forms.css?body=1" for 127.0.0.1 at 2016-02-10 17:49:36 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-02-10 17:49:36 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-02-10 17:49:36 +0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-02-10 17:49:36 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-02-10 17:49:36 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-10 17:56:00 +0800
+Processing by PagesController#front as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Redirected to http://localhost:3000/home
+Completed 302 Found in 7ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-02-10 17:56:00 +0800
+Processing by BusinessesController#index as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  [1m[35mBusiness Load (0.2ms)[0m  SELECT  "businesses".* FROM "businesses"  WHERE "businesses"."category_id" = $1  ORDER BY created_at DESC LIMIT 3  [["category_id", 1]]
+  [1m[36mBusiness Load (0.3ms)[0m  [1mSELECT  "businesses".* FROM "businesses"  WHERE "businesses"."category_id" = $1  ORDER BY created_at DESC LIMIT 3[0m  [["category_id", 2]]
+  [1m[35mBusiness Load (0.2ms)[0m  SELECT  "businesses".* FROM "businesses"  WHERE "businesses"."category_id" = $1  ORDER BY created_at DESC LIMIT 3  [["category_id", 3]]
+  [1m[36mBusiness Load (0.2ms)[0m  [1mSELECT  "businesses".* FROM "businesses"  WHERE "businesses"."category_id" = $1  ORDER BY created_at DESC LIMIT 3[0m  [["category_id", 4]]
+  [1m[35mBusiness Load (0.2ms)[0m  SELECT  "businesses".* FROM "businesses"  WHERE "businesses"."category_id" = $1  ORDER BY created_at DESC LIMIT 3  [["category_id", 5]]
+  Rendered businesses/index.html.haml within layouts/application (27.3ms)
+  Rendered shared/_header.html.haml (3.8ms)
+  Rendered shared/_messages.html.haml (0.1ms)
+Completed 200 OK in 53ms (Views: 44.4ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/assets/general.css?body=1" for 127.0.0.1 at 2016-02-10 17:56:00 +0800
+
+
+Started GET "/assets/header.css?body=1" for 127.0.0.1 at 2016-02-10 17:56:00 +0800
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2016-02-10 17:56:00 +0800
+
+
+Started GET "/assets/profile.css?body=1" for 127.0.0.1 at 2016-02-10 17:56:00 +0800
+
+
+Started GET "/assets/public_pages.css?body=1" for 127.0.0.1 at 2016-02-10 17:56:00 +0800
+
+
+Started GET "/assets/review.css?body=1" for 127.0.0.1 at 2016-02-10 17:56:00 +0800
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2016-02-10 17:56:00 +0800
+
+
+Started GET "/assets/whitespace-reset.css?body=1" for 127.0.0.1 at 2016-02-10 17:56:00 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-02-10 17:56:00 +0800
+
+
+Started GET "/assets/rails_bootstrap_forms.css?body=1" for 127.0.0.1 at 2016-02-10 17:56:00 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-02-10 17:56:00 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-02-10 17:56:00 +0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-02-10 17:56:00 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-02-10 17:56:00 +0800
+
+
+Started GET "/businesses/5" for 127.0.0.1 at 2016-02-10 17:56:03 +0800
+Processing by BusinessesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mBusiness Load (0.2ms)[0m  SELECT  "businesses".* FROM "businesses"  WHERE "businesses"."id" = $1 LIMIT 1  [["id", 5]]
+  [1m[36mReview Load (0.5ms)[0m  [1mSELECT "reviews".* FROM "reviews"  WHERE "reviews"."business_id" = $1  ORDER BY created_at DESC[0m  [["business_id", 5]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered businesses/show.html.haml within layouts/application (15.1ms)
+  Rendered shared/_header.html.haml (1.1ms)
+  Rendered shared/_messages.html.haml (0.2ms)
+Completed 200 OK in 40ms (Views: 28.0ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/general.css?body=1" for 127.0.0.1 at 2016-02-10 17:56:03 +0800
+
+
+Started GET "/assets/header.css?body=1" for 127.0.0.1 at 2016-02-10 17:56:03 +0800
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2016-02-10 17:56:03 +0800
+
+
+Started GET "/assets/profile.css?body=1" for 127.0.0.1 at 2016-02-10 17:56:03 +0800
+
+
+Started GET "/assets/public_pages.css?body=1" for 127.0.0.1 at 2016-02-10 17:56:03 +0800
+
+
+Started GET "/assets/review.css?body=1" for 127.0.0.1 at 2016-02-10 17:56:03 +0800
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2016-02-10 17:56:03 +0800
+
+
+Started GET "/assets/whitespace-reset.css?body=1" for 127.0.0.1 at 2016-02-10 17:56:03 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-02-10 17:56:03 +0800
+
+
+Started GET "/assets/rails_bootstrap_forms.css?body=1" for 127.0.0.1 at 2016-02-10 17:56:03 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-02-10 17:56:03 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-02-10 17:56:03 +0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-02-10 17:56:03 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-02-10 17:56:03 +0800
+
+
+Started POST "/businesses/5/reviews" for 127.0.0.1 at 2016-02-10 17:56:07 +0800
+Processing by ReviewsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"91EizVqkpaXHFnh9ntHkCrEbzCjSYuhts1F1wNbHCP4=", "review"=>{"rating"=>"", "review"=>""}, "commit"=>"Submit", "business_id"=>"5"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mBusiness Load (0.2ms)[0m  [1mSELECT  "businesses".* FROM "businesses"  WHERE "businesses"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35mReview Load (0.2ms)[0m  SELECT "reviews".* FROM "reviews"  WHERE "reviews"."business_id" = $1  ORDER BY created_at DESC  [["business_id", 5]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered businesses/show.html.haml within layouts/application (5.3ms)
+  Rendered shared/_header.html.haml (0.6ms)
+  Rendered shared/_messages.html.haml (0.1ms)
+Completed 200 OK in 24ms (Views: 16.6ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/general.css?body=1" for 127.0.0.1 at 2016-02-10 17:56:07 +0800
+
+
+Started GET "/assets/header.css?body=1" for 127.0.0.1 at 2016-02-10 17:56:07 +0800
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2016-02-10 17:56:07 +0800
+
+
+Started GET "/assets/profile.css?body=1" for 127.0.0.1 at 2016-02-10 17:56:07 +0800
+
+
+Started GET "/assets/public_pages.css?body=1" for 127.0.0.1 at 2016-02-10 17:56:07 +0800
+
+
+Started GET "/assets/review.css?body=1" for 127.0.0.1 at 2016-02-10 17:56:07 +0800
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2016-02-10 17:56:07 +0800
+
+
+Started GET "/assets/whitespace-reset.css?body=1" for 127.0.0.1 at 2016-02-10 17:56:07 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-02-10 17:56:07 +0800
+
+
+Started GET "/assets/rails_bootstrap_forms.css?body=1" for 127.0.0.1 at 2016-02-10 17:56:07 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-02-10 17:56:07 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-02-10 17:56:07 +0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-02-10 17:56:07 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-02-10 17:56:07 +0800
