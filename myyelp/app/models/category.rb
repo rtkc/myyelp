@@ -3,7 +3,7 @@ class Category < ActiveRecord::Base
   validates_presence_of :name
 
   def recent_businesses
-    return [] if self.id.blank?
-    self.businesses.first(3)
+    return [] if id.blank?
+    businesses.first(3)
   end
 end
