@@ -5,12 +5,21 @@ describe BusinessesController do
   describe "GET show" do
 
     context "authenticated user" do
-      before { set_current_user }
+      before do
+        set_current_user
+        @business = Fabricate(:business)
+      end
       
-      it "sets @business" do
-        business = Fabricate(:business)
-        get :show, id: business.id
-        expect(assigns(:business)).to eq(business)
+      it "sets @business" do 
+        get :show, id: @business.id
+        expect(assigns(:business)).to eq(@business)
+      end
+
+      it "sets @reviews" do
+        review1 = Fabricate(:review, business_id: @business.id)
+        review2 = Fabricate(:review, business_id: @business.id)
+        get :show, id: @business.id
+        expect(assigns(:reviews)).to include(review1, review2)
       end
     end
 
