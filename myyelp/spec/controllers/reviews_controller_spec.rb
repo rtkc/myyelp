@@ -60,7 +60,7 @@ describe ReviewsController do
       end
 
       context "invalid input" do
-        before { post :create, business_id: business.id, review: { rating: 4 } }
+        before { post :create, business_id: business.id, review: Fabricate.attributes_for(:review, rating: '', review: '') }
 
         it "does not create new review record" do
           expect(Review.count).to eq(0)
